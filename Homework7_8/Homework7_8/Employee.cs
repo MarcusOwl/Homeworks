@@ -6,33 +6,12 @@ namespace Homework7_8
 {
     public struct Employee
     {
-        /// <summary>
-        /// ID of record
-        /// </summary>
         Guid employeeGuid;
-        /// <summary>
-        /// Time of registration
-        /// </summary>
         DateTime registrationTime;
-        /// <summary>
-        /// Full name
-        /// </summary>
         String name;
-        /// <summary>
-        /// Age of employee
-        /// </summary>
         Byte age;
-        /// <summary>
-        /// Height of employee
-        /// </summary>
         Byte height;
-        /// <summary>
-        /// Birth date of employee
-        /// </summary>
         DateOnly birthDate;
-        /// <summary>
-        /// Birth place of employee
-        /// </summary>
         String birthPlace;
 
         public Guid EmployeeGuid { 
@@ -40,37 +19,35 @@ namespace Homework7_8
                 return employeeGuid;
             }
         }
-        public DateTime RegistrationTime { get
-            {
+        public DateTime RegistrationTime { 
+            get {
                 return registrationTime;
             } 
         }
-        public String Name { get
-            {
+        public String Name { 
+            get {
                 return name;
             } 
         }
         public Byte Height
         {
-            get
-            {
+            get {
                 return height;
             }
         }
-        public Byte Age { get
-            {
+        public Byte Age { 
+            get {
                 return age;
             } 
         }
-        public DateOnly BirthDate { get
-            {
+        public DateOnly BirthDate { 
+            get {
                 return birthDate;
             } 
         }
         public String BirthPlace
         {
-            get
-            {
+            get {
                 return birthPlace;
             }
         }
